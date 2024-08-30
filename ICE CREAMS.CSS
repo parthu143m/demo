@@ -1,0 +1,86 @@
+.body{
+    background-image: url("back5.jpg");
+    background-repeat: no-repeat;
+    
+    overflow-x: hidden;
+
+  
+}
+
+.vegh {
+    text-align: center;
+    width: 300px;
+    border: 1px solid black;
+    color: rgb(52, 51, 51);
+    display: inline-block;
+    text-align: center;
+    margin-left: 450px; /* This margin might be causing the issue */
+    padding: 10px 20px;
+    background-color: wheat;
+    padding-left: 17px;
+    padding-right: 17px;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+
+
+
+
+
+.text-overlay {
+    position: absolute;
+    padding-bottom: 250px;
+    
+    transform: translate(-50%, -50%);
+    
+    border-radius: 2px solid silver;
+    color: aliceblue;
+    width: 100%;
+}
+.img{
+    width: 160px;
+    height:180px; 
+    margin-left: 0px;
+}
+
+.row{
+    height: 180px;
+}
+.h4{
+    padding-left:50px;
+    
+}
+.btn{
+    padding-top: 0%;
+    margin-left: 60px;
+    color: black;
+}
+.col-12{
+    background-color:  rgb(52, 51, 51);
+    
+    border: 5px solid white;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+}
+@media screen and (max-width:600px) {
+
+    .vegh{
+        text-align: center;
+        width: 300px;
+        border: 1px solid black;
+        color: rgb(52, 51, 51);
+        display: inline-block;
+        text-align: center;
+        margin-left: 55px;
+        padding: 10px 20px;
+        background-color: wheat;
+        padding-left: 17px;
+        padding-right: 17px;
+        clip-path: polygon(100% 0,93% 50%,100% 99%,0% 100%,7% 50%,0% 0%);
+        
+    }
+    
+
+
+
+
+}

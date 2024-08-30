@@ -1,0 +1,148 @@
+.body{
+    background-image: url("back5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+
+  
+}
+
+
+.paddingwel{
+    padding-top: 10px;
+}
+
+.d-block{
+    height: 500px;
+    width:100%;height:500px
+}
+.carousel-item{
+    background-color: rgb(52, 51, 51);
+}
+.h3see{
+    padding-left: 1500px;
+}
+.btn1{
+    
+        margin-left: 80px;
+        padding: 10px 20px;
+        border-radius: 30px;
+        background-color: white;
+        font-size: 20px;
+        color: black;
+        border: none;
+
+    
+    
+}
+
+
+
+
+
+
+
+.container2{
+    align-items: center;
+}
+
+.col-xl-3{
+    margin-right: 10px;
+    margin-left: 80px;
+    
+}
+
+
+.card-img-top{
+    height: 280px;
+    width: 100%;
+    border-radius: 50%;
+
+    
+}
+
+.card{
+
+    height: 460px;
+    background-color: transparent;
+    color: #F9EBE0;
+    width:400px;
+
+}
+
+.card-title{
+    font-size: 30px;
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+    font-size: 15px;
+
+}
+
+
+
+.buy{
+    margin-left: 150px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 13px;
+    color: black;
+    border: none;
+}
+
+
+/* mobile view */
+@media screen and (max-width:600px) {
+
+
+    .col-xl-3{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .carousel-inner{
+        align-items: center;
+        height: 300px;
+        margin-right: 0px;
+    }
+    .d-block{
+        height: 250px;
+        
+    }
+    
+    .col-xl-3{
+        
+        width: 250px;
+    }
+    .text-overlay {
+        position: absolute;
+        top: 40%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+        color: aliceblue;
+        font-size: small; 
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    body, html{
+        max-width: 100%;
+        overflow-x: hidden;
+
+    }
+
+    .card{
+        margin-left: 20px;
+        width: 350px;
+    }
+    .buy{
+        margin-left: 125px;
+        padding: 10px 15px;
+        border-radius: 30px;
+        background-color: white;
+        font-size: 13px;
+        color: black;
+        border: none;
+    }
+}
